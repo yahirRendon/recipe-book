@@ -1,0 +1,144 @@
+
+@font-face {
+  font-family: 'lessregular';
+  src: url('../../recipe-book-project/fonts/less-webfont.woff2') format('woff2'),
+       url('../../recipe-book-project/fonts/less-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  margin: 2% 0;
+  font-family: lessregular, monospace;
+  background-color: var(--lighter);
+  font-weight:normal;
+  font-style:normal;
+  background-color: #ECEBE2;
+}
+
+select {
+  /* appearance: none; */
+  /* background-color: transparent; */
+  border: 1px solid black;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+input {
+  font-size: 1rem;
+}
+
+/* header/intro grid */
+.header-wrapper {
+  display: grid;
+  grid-template-columns: .5fr 1.5fr .5fr 1.5fr .5fr;
+  grid-template-areas: ".  header_c header_c header_c  ."
+                       ". . header_b . ."
+                       ". . header_a . ."
+                       ". . header_d . .";
+  gap: .25rem;
+
+}
+.header-a {
+  grid-area: header_a;
+}
+
+.header-b {
+  grid-area: header_b;
+}
+
+.header-c {
+  grid-area: header_c;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* .header-d {
+  grid-area: header_d;
+  text-align: right;
+} */
+
+.header-filter {
+  width: 100%;
+}
+
+/* recipe cards grid */
+.recipe-wrapper {
+  display:grid;
+  grid-template-columns: .25fr 4fr .25fr;
+  grid-template-areas: ". recipe_cards ."; 
+}
+
+.recipe-cards {
+  grid-area: recipe_cards;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  grid-gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.recipe {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas: "image image"
+                       "name name"
+                       "category time";
+  border: 1px solid #aba194;
+  background-color: #f7f6ed;
+  border-radius: 8px; 
+}
+
+.recipe:hover {
+  cursor: pointer;
+}
+
+/* individual recipe section */
+.recipe-image {
+  grid-area: image;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 8px 8px 0 0;
+  height: 400px;
+}
+.recipe-name {
+  grid-area: name;
+  margin-bottom: .25rem;
+  font-size: 2rem;
+  padding: .5rem .75rem;
+}
+.recipe-time {
+  grid-area: time;
+  font-size: .8rem;
+  text-align: right;
+  color: #95abac;
+  padding: .5rem .75rem;
+}
+
+.recipe-category {
+  grid-area: category;
+  font-size: .8rem;
+  color: #95abac;
+  padding: .5rem .75rem;
+}
+
+.expanded-wrapper {
+  display: none;
+  padding: .5rem .75rem;
+}
+
+.content-text{
+  padding: .75rem;
+}
+
+.content-head {
+  padding: 2rem 0;
+}
+
+.hide {
+  display: none;
+}
