@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js" defer></script>
+  <title>recipe book</title>
+</head>
+
+<body>
+  <!-- header/intro section -->
+  <div class="header-wrapper">
+    <input type="search" id="search" class="header-a" placeholder="search recipes" data-search>
+    <div class="header-b">
+      <select name="Categories" class="header-filter" data-categories>
+        <option class="option-all" value="All" selected>All</option>
+        <option class="option-mocktail" value="mocktail">Mocktail</option>
+        <option class="option-soup" value="soup">Soup</option>
+        <option class="option-salad" value="salad">Salad</option>
+      </select>
+    </div>
+    <div class="header-c">recipes</div>
+    <!-- <div class="header-d">ooo</div> -->
+  </div>
+  <!-- display recipe cards -->
+  <div class="recipe-wrapper">
+    <div class="recipe-cards" data-recipe-cards-container></div>
+    <template data-recipe-template>
+      <div class="recipe">
+        <!-- condensed version -->
+        <div class="recipe-image" data-image></div>
+        <div class="recipe-name" data-name></div>
+        <div class="recipe-time" data-time></div>
+        <div class="recipe-category" data-category></div>
+        <!-- expanded version -->
+        <div class="expanded-wrapper">
+          <div class="content-head">
+            <div>Ingredients:</div>
+            <div class="content-text" data-ingredients></div>
+          </div>
+          <div class="content-head">
+            <div>Directions:</div>
+            <div class="content-text" data-directions></div>
+          </div>
+        </div>
+    </template>
+    </div>
+</body>
+</html>
