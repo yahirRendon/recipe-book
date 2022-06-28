@@ -86,7 +86,7 @@ input {
   grid-template-columns: auto auto;
   grid-template-areas: "image image"
                        "name name"
-                       "category time";
+                       "category time" "expanded_wrapper expanded_wrapper";
   border: 1px solid #aba194;
   background-color: #f7f6ed;
   border-radius: 8px; 
@@ -126,19 +126,48 @@ input {
   padding: .5rem .75rem;
 }
 
+/* expanded card */
 .expanded-wrapper {
   display: none;
-  padding: .5rem .75rem;
+  grid-area: expanded_wrapper;
+  grid-template-columns: 1fr;
+  grid-template-areas: "expanded_a" 
+                       "expanded_b"
+                       "expanded_c"
+                       "expanded_d";
+  
 }
 
-.content-text{
+.expanded-a {
+  grid-area: expanded_a;
+  /* border-top: 1px solid #95abac;; */
+}
+
+.expanded-b {
+  grid-area: expanded_b;
+  /* border-top: 1px solid #95abac;; */
+}
+
+.expanded-c {
+  grid-area: expanded_c;
+  /* border-top: 1px solid #95abac;; */
+}
+
+.expanded-d {
+  grid-area: expanded_d;
+  /* border-top: 1px solid #95abac;; */
+}
+
+.expanded-titles {
   padding: .75rem;
+  border-top: 1px solid #95abac;
 }
-
-.content-head {
-  padding: 2rem 0;
+.expanded-details {
+  padding-left: 1.5rem;
+  padding-bottom:1rem;
 }
 
 .hide {
   display: none;
 }
+
