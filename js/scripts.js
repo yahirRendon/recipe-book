@@ -1,6 +1,10 @@
 /**
- * https://matthewbusche.com/2020/03/25/combining-multiple-json-fetch-requests-into-one-array/
- * https://www.adamsmith.haus/python/answers/how-to-update-a-json-file-in-pythonpast
+ * for local json file I found it's best to use firefox. Open tab and type
+ * about:config
+ * find the following and set to false
+ * security.fileuri.strict_origin_policy
+ * and/or
+ * network.http.refere.XOriginPolicy
  */
 
 // global 
@@ -8,6 +12,7 @@ const recipeCardTemplate = document.querySelector("[data-recipe-template]")
 const recipeCardContainer = document.querySelector("[data-recipe-cards-container]")
 const searchInput = document.querySelector("[data-search]")
 const filterInput = document.querySelector("[data-categories]")
+const topButton = document.querySelector(".top-button");
 var currentCategory = filterInput[filterInput.selectedIndex].value
 var categoryClickNum = 0;
 let recipes = []
@@ -64,6 +69,15 @@ searchInput.addEventListener("input", e => {
   })
 })
 
+/**
+ * on click top button send user to top of page
+ */
+topButton.addEventListener('click', function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+});
+}, false)
 
 /**
  * get recipes from json and populate recipe cards
