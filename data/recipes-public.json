@@ -1,1 +1,176 @@
 
+[
+    {
+        "id": 0,
+        "name": "Aliquip Voluptate ",    
+        "category": "citrus",
+        "time": "low",
+        "image": "abhishek-hajare-SPeWOme775E-unsplash.jpg",
+        "website": "https://unsplash.com/photos/SPeWOme775E",
+        "tags": [
+            ""
+            ],
+        "notes": [
+            "egestas erat imperdiet sed euismod nisi"
+          ],
+        "ingredients": [
+            "accumsan lacus",
+            "posuere",
+            "1 velit egestas dui ",
+            "1/2 orci dapibus",
+            "1/2 trupis massa in",
+            "odio morbi",
+            "arcu"
+          ],
+        "directions": [
+            "1. erat imperdiet sed",
+            "2. duis ultricies lacus sed turpis",
+            "3. mattis nunc sed blandit libero",
+            "4. faucibus turpis in",
+            "5. pharetra vel turpis nunc",
+            "6. verra maecenas accumsan lacus"
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Excepteur Aute",    
+        "category": "tea",
+        "time": "medium",
+        "image": "rirri-9Xvy-Y4bivg-unsplash.jpg",
+        "website": "https://unsplash.com/photos/R4zSXgDZLEU",
+        "tags": [
+            "martini",
+            "lemon"
+            ],
+        "notes": [
+            "Id leo in vitae turpis massa sed elementum tempus",
+            "Massa sapien faucibus et molestie ac feugiat sed"
+          ],
+          "ingredients": [
+            "accumsan lacus",
+            "1/2 trupis massa in",
+            "odio morbi",
+            "arcu"
+          ],
+        "directions": [
+            "1. erat imperdiet sed",
+            "2. duis ultricies lacus sed turpis"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Sint Mollit",    
+        "category": "citrus",
+        "time": "low",
+        "image": "tyler-nix-a7zIxVCti3k-unsplash.jpg",
+        "website": "https://unsplash.com/photos/a7zIxVCti3k",
+        "tags": [
+            "coconut",
+            "fat"
+            ],
+        "notes": [
+            "Nibh praesent tristique magna sit amet purus gravida quis blandit"
+          ],
+          "ingredients": [
+            "1 velit egestas dui ",
+            "1/2 orci dapibus",
+            "1/2 trupis massa in"
+          ],
+        "directions": [
+            "1. erat imperdiet sed",
+            "2. duis ultricies lacus sed turpis",
+            "3. mattis nunc sed blandit libero",
+            "4. faucibus turpis in"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Adipsicing",    
+        "category": "tea",
+        "time": "medium",
+        "image": "abhishek-hajare-k7bVHuGir4c-unsplash.jpg",
+        "website": "https://unsplash.com/photos/k7bVHuGir4c",
+        "tags": [
+            "earl grey",
+            "lemon",
+            "aquafaba"
+            ],
+        "notes": [
+            "dolor sit amet consectetur adipiscing elit"
+          ],
+        "ingredients": [
+            "accumsan lacus",
+            "posuere",
+            "1 velit egestas dui ",
+            "1/2 orci dapibus",
+            "1/2 trupis massa in",
+            "odio morbi"
+          ],
+        "directions": [
+            "1. erat imperdiet sed",
+            "2. duis ultricies lacus sed turpis",
+            "3. mattis nunc sed blandit libero",
+            "4. faucibus turpis in",
+            "5. pharetra vel turpis nunc",
+            "6. verra maecenas accumsan lacus",
+            "7. ornare suspendisse sed nisi lacus sed",
+            "8. mauris ultrices eros in cursus"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Nulla Fugiat",    
+        "category": "tea",
+        "time": "medium",
+        "image": "abhishek-hajare-jul6VUgrclw-unsplash.jpg",
+        "website": "https://unsplash.com/photos/jul6VUgrclw",
+        "tags": [
+            "tea",
+            "almond",
+            "passionfruit",
+            "rosemary",
+            "ginger"
+            ],
+        "notes": [
+            "Aliquam nulla facilisi cras fermentum"
+          ],
+        "ingredients": [
+            "accumsan lacus",
+            "posuere",
+            "1 velit egestas dui ",
+            "1/2 trupis massa in",
+            "odio morbi"
+          ],
+        "directions": [
+            "1. erat imperdiet sed",
+            "2. duis ultricies lacus sed turpis",
+            "3. mattis nunc sed blandit libero",
+            "4. faucibus turpis in"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Veniam tempor",    
+        "category": "herbal",
+        "time": "low",
+        "image": "nathan-dumlao-_Wm6mhXO9rk-unsplash.jpg",
+        "website": "https://unsplash.com/photos/_Wm6mhXO9rk",
+        "tags": [
+            "grapefruit",
+            "ginger beer"
+            ],
+        "notes": [
+            "adjust ratios to desire"
+          ],
+        "ingredients": [
+            "accumsan lacus",
+            "posuere",
+            "1 velit egestas dui ",
+            "1/2 orci dapibus"
+          ],
+        "directions": [
+            "1. erat imperdiet sed",
+            "2. duis ultricies lacus sed turpis"
+        ]
+    }
+]
